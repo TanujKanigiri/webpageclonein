@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "page/wsgi.py",
+      "src": "webpageclonein/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
@@ -17,9 +17,11 @@
       }
     }
   ],
-  "rewrites": [
-    {"source": "/(.*)","destination":"/"}
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "webpageclonein/wsgi.py"  
+    }
   ],
   "outputDirectory": "static"
 }
-
