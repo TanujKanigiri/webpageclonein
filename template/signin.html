@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="icon" href="../static/img/logo.webp" type="image/icon type">
+    <link rel="stylesheet" href="../static/css/signin.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" id="img"><img id="logo" src="../static/img/logo.webp" alt=""></a>
+        <a class="anchor" id="sheryians" href="">Sheryians coding school</a>
+        <a class="anchor" id="home" href="{% url 'webpage:home' %}">Home</a>
+        <a class="anchor" id="courses" href="{% url 'webpage:courses' %}">Courses</a>
+        <a class="anchor" id="bootcamp" href="{% url 'webpage:bootcamp' %}">Bootcamp(Kodr)</a>
+        <a class="anchor" id="request" href="{% url 'webpage:request' %}">Request Callback</a>
+        <button id="signin"><a class="anchor" id="sign_button" href="{% url 'webpage:signin' %}">Sign In</a></button>
+    </nav>
+
+    <!-- <h1 id="signin_id">Sign In</h1>
+    <p id="phone_id">Phone</p>
+    <p id="email_id">Email</p> -->
+    <!-- <p id="mb">Mobile Number *</p> -->
+
+    <div id="signin_main_division_phone" class="division active">
+        <!-- <h1 id="signin_id">Sign In</h1>
+        <p onclick="showDivision('phone')" id="phone_id">Phone</p>
+        <p onclick="showDivision('email')" id="email_id">Email</p> -->
+        <h1 id="heading">Sign In</h1>
+        <button onclick="showDivision('phone')" id="phone_button">Phone</button>
+        <button onclick="showDivision('email')" id="email_button">Email</button><br>
+        <div id="phone_container">
+            <label id="mobile_number">Mobile Number *</label><br>
+            <input type="text" name="MobileNumber" id="mobile_number_inputbox" placeholder="Enter Your Mobile Number">
+            <div id="last_container_phone"><hr id="hr">
+                <button class="buttons_last" id="google_button"><img id="googleicon" src="../static/img/google.png" alt=""><span id="continue_with_google_text">Continue with Google</span></button>
+                <button class="buttons_last" id="create_button"><img id="account_icon" src="../static/img/Screenshot 2024-12-20 232330.png" alt=""><span id="create_account_text">Create a New Account</span></button>
+            </div> 
+        </div>  
+    </div>
+    <div id="signin_main_division_eml" class="division">
+        <h2 id="heading_eml">Sign In</h2>
+        <button onclick="showDivision('phone')" id="phone_button_eml">Phone</button>
+        <button onclick="showDivision('email')" id="email_button_eml">Email</button><br>
+        <div id="email_container_eml">
+            <div id="inputs_division_eml">
+                <label id="email_address_label_eml" >Email address</label><br>
+                <input type="text" name="EmailAddress" id="email_address_inputbox_eml" placeholder="Enter your email address">
+                <label id="password_label_eml" >Password</label><br>
+                <input type="password" name="Password" id="password_inputbox_eml" placeholder="Enter your password here">
+                <img onclick="toHide()" id="eye_icon" src="../static/img/eye.png" alt=""><br>
+                <button id="continue_button">Continue</button>
+                <fieldset id="legend_line">
+                    <legend id="legend_or"> Or </legend>
+                </fieldset>
+            </div>
+            <div id="last_container_email">
+                <button class="buttons_last" id="google_button"><img id="googleicon" src="../static/img/google.png" alt=""><span id="continue_with_google_text">Continue with Google</span></button>
+                <button class="buttons_last" id="create_button"><img id="account_icon" src="../static/img/add_user_icon.png" alt=""><span id="create_account_text">Create a New Account</span></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toHide(){
+            var password=document.getElementById("password_inputbox_eml");
+            const passwordType = password.type === "password" ? "text" : "password";
+            password.type = passwordType;
+        }
+        function showDivision(type) {
+                const phoneDiv = document.getElementById('signin_main_division_phone');
+                const emailDiv = document.getElementById('signin_main_division_eml');
+                if (type === 'phone') {
+                    phoneDiv.classList.add('active'); // Show phone division
+                    emailDiv.classList.remove('active'); // Hide email division
+                } else if (type === 'email') {
+                    emailDiv.classList.add('active'); // Show email division
+                    phoneDiv.classList.remove('active'); // Hide phone division
+                }
+            }
+    </script>
+    
+</body>
+</html>

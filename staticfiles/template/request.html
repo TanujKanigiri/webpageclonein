@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodr | Sheryians</title>
+    <link rel="icon" href="../static/img/logo.webp" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Geist+Mono:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Unlock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/requst.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" id="img"><img id="logo" src="../static/img/logo.webp" alt=""></a>
+        <a class="anchor" id="sheryians" href="">Sheryians coding school</a>
+        <a class="anchor" id="home" href="{% url 'webpage:home' %}">Home</a>
+        <a class="anchor" id="courses" href="{% url 'webpage:courses' %}">Courses</a>
+        <a class="anchor" id="bootcamp" href="{% url 'webpage:bootcamp' %}">Bootcamp(Kodr)</a>
+        <a class="anchor" id="request" href="{% url 'webpage:request' %}">Request Callback</a>
+        <button id="signin"><a class="anchor" id="sign_button" href="{% url 'webpage:signin' %}">Sign In</a></button>
+    </nav>

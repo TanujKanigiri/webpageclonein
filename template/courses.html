@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryians | Courses</title>
+    <link rel="icon" href="../static/img/logo.webp" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Geist+Mono:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Unlock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/courses.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" id="img"><img id="logo" src="../static/img/logo.webp" alt=""></a>
+        <a class="anchor" id="sheryians" href="">Sheryians coding school</a>
+        <a class="anchor" id="home" href="{% url 'webpage:home' %}">Home</a>
+        <a class="anchor" id="courses" href="{% url 'webpage:courses' %}">Courses</a>
+        <a class="anchor" id="bootcamp" href="{% url 'webpage:bootcamp' %}">Bootcamp(Kodr)</a>
+        <a class="anchor" id="request" href="{% url 'webpage:request' %}">Request Callback</a>
+        <button id="signin"><a class="anchor" id="sign_button" href="{% url 'webpage:signin' %}">Sign In</a></button>
+    </nav>
+
+    <h1 id="factory">We're not a <span id="courseee">course factory.</span></h1>
+    <p id="focus">We focus on courses that really help.</p>
+    <p id="do">Courses which do work !</p>
+
+    <div id="course_offer1" class="offers">
+        <img id="first_img" src="../static/img/fend.webp" alt="">
+        <p class="sub_tag">indepth</p>
+        <h2 id="h1">Front-End Dominatin:Create Anything with Code</h2>
+        <p class="lan">hindi</p>
+        <span class="limited">Limited Time Discount</span>
+        <p id="ganesh">₹ 4999</p>
+        <small class="value">₹ 9999</small>
+        <p class="discount">50% OFF</p>
+        <a href=""><button class="view_button">View Details</button></a>
+    </div>
+    <div id="course_offer2" class="offers">
+        <img id="second_img" src="../static/img/bend.webp" alt="">
+        <p class="sub_tag">indepth</p>
+        <h2 id="h2">Back-End Dominatin:Create Efficient Back-End.</h2>
+        <p class="lan">hindi</p>
+        <span class="limited">Limited Time Discount</span>
+        <p id="ganesh">₹ 5999</p>
+        <small class="value">₹ 11999</small>
+        <p class="discount">50% OFF</p>
+        <a href=""><button class="view_button">View Details</button></a>
+    </div>
+    <div id="course_offer3" class="offers">
+        <img id="third_img" src="../static/img/apti.webp" alt="">
+        <p class="sub_tag" id="place">placements</p>
+        <h2 id="h3">Aptitude & Reasoning for Campus Placements</h2>
+        <p class="lan">english</p>
+        <span class="limited">Black Friday Sale</span>
+        <p id="ganesh">₹ 999</p>
+        <small class="value">₹ 1500</small>
+        <p class="discount">33% OFF</p>
+        <a href=""><button class="view_button">View Details</button></a>
+    </div>
+    <div id="course_offer4" class="offers">
+        <img id="forth_img" src="../static/img/java.webp" alt="">
+        <p class="sub_tag">indepth</p>
+        <h2 id="h4">Java & DSA Domination</h2>
+        <p class="lan">english</p>
+        <span class="limited" id="span_limited">Limited Time Discount</span>
+        <p id="ganesh_last">₹ 4999</p>
+        <small class="value" id="small">₹ 9999</small>
+        <p class="discount" id="id_discount">50% OFF</p>
+        <a href=""><button class="view_button" id="view_four_button">View Details</button></a>
+    </div><br>
+    <div id="course_offer5" class="offers">
+        <img id="forth_img" src="../static/img/threejs.webp" alt="">
+        <p class="sub_tag" id="place5">animation</p>
+        <h2 id="h3">Three.JS Domination</h2>
+        <p class="lan">hindi</p>
+        <span class="limited">Black Friday Sale</span>
+        <p id="ganesh">₹ 2499</p>
+        <small class="value">₹ 3500</small>
+        <p class="discount">29% OFF</p>
+        <a href=""><button class="view_button">View Details</button></a>
+    </div>
+
+    <div id="lastinfo">
+        <div id="connect">
+            <img id="sherlogo" src="../static/img/logo.webp" alt="">
+            <p id="socials">Let's connect with our socials</p>
+            <img id="instalogo" src="../static/img/instalogo.png" alt="">
+            <img id="linkedinlogo" src="../static/img/linkedinlogo.png" alt="">
+            <img id="githublogo" src="../static/img/icons8-discord-50.png" alt="">
+            <img id="ytlogo" src="../static/img/y.png" alt="">
+            <img id="xlogo" src="../static/img/Screenshot 2024-12-19 193244.png" alt="">
+        </div>
+        <div id="info">
+            <h5 id="companyid" class="info_buttons">COMPANY</h5>
+            <p class="info_buttons">About Us</p>
+            <p class="info_buttons">Support</p>
+            <p class="info_buttons">Privacy Policy</p>
+            <p class="info_buttons">Terms and Condition</p>
+            <p class="info_buttons">Pricing and Refund</p>
+            <p class="info_buttons">Hire From Us</p>
+            <p class="info_buttons">Bug Bounty</p>
+        </div>
+        <div id="community">
+            <h5 id="communityid">COMMUNITY</h5>
+            <p class="inanddi">Inertia</p>
+            <p class="inanddi">Discord</p>
+        </div>
+        <div id="touch">
+            <h5 id="touchid">Get In Touch</h5>
+            <p class="phn">+91 8109161752</p>
+            <p class="phn">+91 9691778470</p>
+            <p class="phn">hello@sheryians.com</p>
+            <p class="phn">23-B,Indrapuri Sector C, <br>Bhopal(MP),462021</p>
+        </div>
+    </div>
+
+    <footer id="footer">Copyright <span id="#cpy">&copy;</span> 2024 Sheryians Pvt. Ltd. <br><span id="all">All Rights Reserved.</span> </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "NeueMachinaRegular";
+    src: url(../../static/fonts/NeueMachinaRegular.otf)
+}
+@font-face {
+    font-family: "juana";
+    src: url(../../static/fonts/FontspringDEMOjuanaextralightit.otf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    width: 100%;
+    background-color: transparent;
+    height: 80px;
+}
+
+#logo{
+    width: 20.9px;
+    position: relative;
+    left: 4.65%;
+    top: 15px;
+}
+
+#sheryians{
+    position: relative;
+    top: 9.5px;
+    left: 4.9%;
+    letter-spacing: 0.5px;
+    font-family: NeueMachinaRegular;
+    word-spacing: -1px;
+    font-size: 14.8px;
+}
+
+#home{
+    position: relative;
+    top: 8px;
+    left: 41.7%;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    font-family: NeueMachinaRegular;
+}
+
+#courses{
+    position: relative;
+    top: 8px;
+    left: 44.7%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#bootcamp{
+    position: relative;
+    top: 8px;
+    left: 47.8%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#request{
+    position: relative;
+    top: 8px;
+    left: 51.2%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#signin{
+    width: 92px;
+    height: 34px;
+    background-color:#24cfa6 ;
+    color: black;
+    position: relative;
+    top: 9.3px;
+    left: 53.7%;
+    border-radius: 4.5px;
+    border: none;
+    outline: none;
+    font-size: 15.5px;
+    letter-spacing: -0.5px;
+    font-family: "Helvetica";
+}
+#sign_button{
+    color: black;
+}
+/* 
+#signin_id{
+    width: 192px;
+    height: 25px;
+    font-family: helvetica;
+    font-size: 33px;
+    color: white;
+    position: relative;
+    left: 36.3%;
+    top: 68px;
+    font-weight: 200;
+    word-spacing: -1px;
+    letter-spacing: -1.2px;
+}
+
+#phone_id{
+    width: 192px;
+    height: 20px;
+    color: white;
+    position: relative;
+    left: 36.5%;
+    top: 108.5px;
+    font-size: 15px;
+    font-weight: 200;
+    word-spacing: -0.8px;
+    font-family: helvetica;
+}
+#email_id{
+    width: 192px;
+    height: 20px;
+    font-size: 14px;
+    color: #9E9E9E;
+    position: relative;
+    left: 40.6%;
+    top: 89px;
+    font-weight: 200;
+    word-spacing: -1px;
+    font-family: helvetica;
+}
+#mb{
+    width: 192px;
+    height: 20px;
+    font-size: 14px;
+    color: #9E9E9E;
+    position: relative;
+    left: 35%;
+    top: 180px;
+    font-weight: 200;
+    word-spacing: -1px;
+    font-family: helvetica;
+}  */
+
+#signin_main_division_phone{
+    width: 420px;
+    height: 500px;
+    position: relative;
+    top: 62px;
+    left: 35.3%;
+    font-weight: 300;
+}
+#heading{
+    width: 192px;
+    height: 25px;
+    font-family: helvetica;
+    font-size: 34px;
+    color: white;
+    position: relative;
+    left: 3.6%;
+    top: 4.7px;
+    font-weight: 200;
+    word-spacing: -1px;
+    letter-spacing: -1.2px;
+}
+#phone_container{
+    width: 420px;
+    height: 450px;
+    /* background-color: red; */
+}
+#phone_button{
+    width: 48.4px;
+    height: 20px;
+    color: white;
+    position: relative;
+    left: 3.7%;
+    top: 45.5px;
+    font-size: 15px;
+    font-weight: 200;
+    word-spacing: -0.8px;
+    font-family: helvetica;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #24cfa6;
+}
+
+#email_button{
+    border: none;
+    background-color: transparent;
+    width: 192px;
+    height: 20px;
+    font-size: 14.3px;
+    color: #9E9E9E;
+    position: relative;
+    left: -11.7%;
+    top: 46px;
+    font-weight: 200;
+    word-spacing: -1px;
+    font-family: helvetica;
+}
+#mobile_number{
+    font-size: 12px;
+    position: relative;
+    top: 124px;
+    left: 3.6%;
+    cursor: default;
+    font-family:'Helvetica';
+    color: gray;
+    font-weight: 560;
+    letter-spacing: -0.6px;
+}
+#mobile_number_inputbox{
+    background-color: #1e1e1e;
+    position: relative;
+    top: 135px;
+    left: 3.8%;
+    width: 98%;
+    height: 26px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    word-spacing: -1.8px;
+    font-family: Helvetica;
+    border-radius:1.8px;
+}
+#last_container_phone{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 200px;
+}
+.buttons_last{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 30px;
+    position: relative;
+    top: 23px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+#hr{
+    position: relative;
+    top:3%;
+    width: 100%;
+    left: 3.9%;
+    border: 0.3px gray solid;
+}
+#googleicon{
+    width: 25px;
+    position: relative;
+    top: 3px;
+    right: 1%;
+}
+#continue_with_google_text{
+    position: relative;
+    bottom: 3px;
+    left: 2.7%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2px;
+}
+#google_button{
+    position: relative;
+    top: 21%;
+    left: 4%;
+}
+#create_button{
+    position: relative;
+    top: 22%;
+    left: 4%;
+    height: 55px;
+}
+#account_icon{
+    width: 25px;
+    background-color: rgba(240, 248, 255, 0.473);
+    border-radius: 40%;
+    position: relative;
+    top: 3px ;
+    right: 1%;
+}
+#create_account_text{
+    position: relative;
+    left: 2%; 
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.8px;
+    bottom: 3px;
+    /* left: 2.7%; */
+    font-size: 17.6px;
+}
+/* email Container*/
+#signin_main_division_eml{
+    width: 420px;
+    height: 500px;
+    /* background-color:blue; */
+    position: relative;
+    top: 45px;
+    left: 35.3%;
+    font-weight: 300;
+    cursor: default;
+
+}
+#heading_eml{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    font-size: 32px;
+    letter-spacing: -.8px;
+    word-spacing: -3px;
+}
+#phone_button_eml{
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    top: 28px;
+    left: 2px;
+}
+#email_button_eml{
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid green;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 28px;
+    left: 3%;
+    font-family: "Helvetica";
+}
+#email_container_eml{
+    width: 420px;
+    height: 450px;
+    /* background-color: red; */
+    position: relative;
+    top: 45px;
+}
+#inputs_division_eml{
+    width: 420px;
+    height: 200px;
+    /* background-color: yellow; */
+} 
+#email_address_label_eml{
+    font-size: 12px;
+    font-family: "Helvetica";
+    color: gray;
+}
+#email_address_inputbox_eml{
+    width: 96.5%;
+    height: 30px;
+    position: relative;
+    top: 2px;
+    background-color: rgb(41, 40, 40);
+    padding-left: 13px;
+    font-family: "Helvetica";
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    border-radius:2px ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    color: aliceblue;
+}
+#password_label_eml{
+    font-size: 12px;
+    font-family: "Helvetica";
+    color: gray;
+    position: relative;
+    top: 26px;
+}
+#password_inputbox_eml{
+    width: 96.5%;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    background-color: rgb(41, 40, 40);
+    padding-left: 13px;
+    font-family: "Helvetica";
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    border-radius:2px ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    color: aliceblue;
+}
+#eye_icon{
+    width: 25px;
+    position: relative;
+    left: 92%;
+    top: 2px;
+}
+#continue_button{
+    width: 90px;
+    height: 28px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #24cfa6;
+    position: relative;
+    left: 78%;
+    top: 45px;
+    font-family: "Helvetica";
+    padding-left: 3px;
+}
+#legend_line{
+    position: relative;
+    top: 60px;
+    border-top:2px solid rgba(128, 128, 128, 0.362);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+#legend_or{
+text-align: center;
+font-size: 13px;
+color: gray;
+padding-left: 5px;
+padding-right: 5px;
+}
+#last_container_email{
+    position: relative;
+    top: 35px;
+}
+/* for hiding the division */
+.division {
+    display: none; 
+}
+.active {
+    display:block;
+}

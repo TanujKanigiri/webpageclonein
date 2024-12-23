@@ -1,0 +1,395 @@
+@font-face {
+    font-family: "NeueMachinaRegular";
+    src: url(../../static/fonts/NeueMachinaRegular.otf)
+}
+@font-face {
+    font-family: "juana";
+    src: url(../../static/fonts/FontspringDEMOjuanaextralightit.otf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    width: 100%;
+    background-color: transparent;
+    height: 80px;
+}
+
+#logo{
+    width: 20.9px;
+    position: relative;
+    left: 4.65%;
+    top: 15px;
+}
+
+#sheryians{
+    position: relative;
+    top: 9.5px;
+    left: 4.9%;
+    letter-spacing: 0.5px;
+    font-family: NeueMachinaRegular;
+    word-spacing: -1px;
+    font-size: 14.8px;
+}
+
+#home{
+    position: relative;
+    top: 8px;
+    left: 41.7%;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    font-family: NeueMachinaRegular;
+}
+
+#courses{
+    position: relative;
+    top: 8px;
+    left: 44.7%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#bootcamp{
+    position: relative;
+    top: 8px;
+    left: 47.8%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#request{
+    position: relative;
+    top: 8px;
+    left: 51.2%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#signin{
+    width: 92px;
+    height: 34px;
+    background-color:#24cfa6 ;
+    color: black;
+    position: relative;
+    top: 9.3px;
+    left: 53.7%;
+    border-radius: 4.5px;
+    border: none;
+    outline: none;
+    font-size: 15.5px;
+    letter-spacing: -0.5px;
+    font-family: "Helvetica";
+}
+#sign_button{
+    color: black;
+}
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+mark{
+    background-color: transparent;
+    color: #24cfa6;
+}
+#bootcamp_youtube{
+    display: inline-block;
+    position: relative;
+    left: 49%;
+    top: -260px;
+    border-radius: 15px;
+}
+#bootcamp_header{
+    position: relative;
+    left: 6%;
+    top: 20px;
+    width: 555px;
+    height: 300px;
+    display: inline-block;
+}
+#bootcamp_heading{
+    word-spacing: -1px;
+    line-height: 1.1;
+    font-family: helvetica;
+    color: white;
+    font-size: 45px;
+}
+#start_date_container,#placement_assistance_container{
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    background-color: rgb(63, 61, 61);
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: relative;
+    top: -490px;
+    left: 6%;
+}
+#placement_assistance_container{
+    position: relative;
+    left: 7.5%;
+}
+#blue_tick_image{
+    height: 23px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding-right: 6px;
+}
+#bootcamp_price_container{
+    position: relative;
+    letter-spacing: 1px;
+    top: -390px;
+    left: -17.5%;
+}
+#bootcamp_price_header{
+    font-family: helvetica;
+    color: white;
+    display: inline;
+}
+#bootcamp_price_mark{
+    font-family: helvetica;
+    letter-spacing: -1px;
+    font-size: 25px;
+}
+#bootcamp_price_gst{
+    font-size: 18px;
+    color: white;
+    font-family: helvetica;
+    letter-spacing: -0.5px;
+}
+#seats_button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 18px 22px;
+    background-color:#24cfa6;
+    filter: blur(0.8px);
+    position: relative;
+    top: -350px;
+    left: 6%;
+}
+.consistency_heading{
+    color: white;
+    font-family: helvetica;
+    position: relative;
+    left: 6%;
+    font-size: 87px;
+    top: -250px;
+    letter-spacing: -1px;
+    display: inline;
+}
+#consis_mark{
+    font-family: helvetica;
+}
+.button_span{
+    font-family: helvetica;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 51, 51);
+    border-radius: 30px;
+    padding: 7px 25px;
+    position: relative;
+    top: -215px;
+    left: 6%;
+    font-size: 40px;
+    margin-right: 20px;
+}
+#timing_heading{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 6%;
+    color: white;
+    font-family: helvetica;
+    font-size: 70px;
+    font-weight: 900;
+}
+#hours_mark,#non_stop_header{
+    font-family: helvetica;
+    font-size: 165px;
+    letter-spacing: -2px;
+    display: inline;
+}
+#everyday{
+    font-family: helvetica;
+    font-size: 60px;
+}
+#day_content{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: helvetica;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 6%;
+    top: 35px;
+}
+
+#lastinfo{
+    width: 96%;
+    height: 448px;
+    border-top: 0.5px white solid;
+    border-bottom: 0.5px white solid;
+    position: relative;
+    left: 35px;
+    margin-top: 485px;
+}
+
+#footer{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.8px;
+    margin-top: 19.7px;
+    margin-left: 42.7%;
+    margin-bottom: 24px;
+    line-height: 18px;
+}
+#all{
+    position: relative;
+    left: 6.2%;
+}
+
+
+#sherlogo,#instalogo,#linkedinlogo,#githublogo,#ytlogo,#xlogo{
+    width: 25px;
+    display: inline;
+}
+
+#sherlogo{
+    width: 42.4px;
+    position: relative;
+    left: 13%;
+    top: 110px;
+}
+#socials{
+    position: relative;
+    top: 125px;
+    left: 13%;
+    word-spacing: -2px;
+    font-size: 13.9px;
+    color: white;
+    font-family: helvetica;
+}
+#connect{
+    width: 270px;
+    height: 420px;
+    color: white;
+}
+#instalogo{
+    width: 26px;
+    position: relative;
+    left: 13%;
+    top: 140px;
+}
+#linkedinlogo{
+    width: 19px;
+    position: relative;
+    left: 22%;
+    top: 137px;
+}
+#githublogo{
+    width: 24px;
+    position: relative;
+    left: 31.6%;
+    top: 140px;
+}
+#ytlogo{
+    width: 22px;
+    position: relative;
+    left: 41%;
+    top: 139px;
+}
+#xlogo{
+    width: 25px;
+    position: relative;
+    left: 49%;
+    top: 138px;
+}
+
+
+.info_buttons{
+    position: relative;
+    margin-bottom: 15.5px;
+    font-family: helvetica;
+}
+#info{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -321.5px;
+    left: 37.1%;
+    font-size: 13.8px;
+    font-family: helvetica;
+}
+#companyid{
+    font-size: 15.6px;
+    margin-bottom: 23px;
+}
+
+#community{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -483px;
+    left: 63.45%;
+    margin-bottom: 20px;
+    font-family: helvetica;
+}
+#communityid{
+    position: relative;
+    font-size: 15.6px;
+    font-family: helvetica;
+}
+.inanddi{
+    position: relative;
+    bottom: -24px;
+    font-size: 13.8px;
+    margin-bottom: 14px;
+}
+
+#touch{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -661.5px;
+    left: 87.45%;
+}
+#touchid{
+    position: relative;
+    font-size: 15.6px;
+    font-family: helvetica;
+    margin-bottom: 23px;
+}
+.phn{
+    font-family: helvetica;
+    font-size: 14px;
+    margin-bottom: 15px;
+    word-spacing: -5px;
+}

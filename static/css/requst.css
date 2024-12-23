@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "NeueMachinaRegular";
+    src: url(../../static/fonts/NeueMachinaRegular.otf)
+}
+@font-face {
+    font-family: "juana";
+    src: url(../../static/fonts/FontspringDEMOjuanaextralightit.otf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    width: 100%;
+    background-color: transparent;
+    height: 80px;
+}
+
+#logo{
+    width: 20.9px;
+    position: relative;
+    left: 4.65%;
+    top: 15px;
+}
+
+#sheryians{
+    position: relative;
+    top: 9.5px;
+    left: 4.9%;
+    letter-spacing: 0.5px;
+    font-family: NeueMachinaRegular;
+    word-spacing: -1px;
+    font-size: 14.8px;
+}
+
+#home{
+    position: relative;
+    top: 8px;
+    left: 41.7%;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    font-family: NeueMachinaRegular;
+}
+
+#courses{
+    position: relative;
+    top: 8px;
+    left: 44.7%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#bootcamp{
+    position: relative;
+    top: 8px;
+    left: 47.8%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#request{
+    position: relative;
+    top: 8px;
+    left: 51.2%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-family: NeueMachinaRegular;
+}
+
+#signin{
+    width: 92px;
+    height: 34px;
+    background-color:#24cfa6 ;
+    color: black;
+    position: relative;
+    top: 9.3px;
+    left: 53.7%;
+    border-radius: 4.5px;
+    border: none;
+    outline: none;
+    font-size: 15.5px;
+    letter-spacing: -0.5px;
+    font-family: "Helvetica";
+}
+#sign_button{
+    color: black;
+}

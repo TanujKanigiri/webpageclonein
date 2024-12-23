@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryians Coding School | Learn Coding in India</title>
+    <link rel="icon" href="../static/img/logo.webp" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Geist+Mono:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Unlock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/home.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" id="img"><img id="logo" src="../static/img/logo.webp" alt=""></a>
+        <a class="anchor" id="sheryians" href="">Sheryians coding school</a>
+        <a class="anchor" id="home" href="{% url 'webpage:home' %}">Home</a>
+        <a class="anchor" id="courses" href="{% url 'webpage:courses' %}">Courses</a>
+        <a class="anchor" id="bootcamp" href="{% url 'webpage:bootcamp' %}">Bootcamp(Kodr)</a>
+        <a class="anchor" id="request" href="{% url 'webpage:request' %}">Request Callback</a>
+        <button id="signin"><a class="anchor" id="sign_button" href="{% url 'webpage:signin' %}">Sign In</a></button>
+    </nav>
+
+    <div id="matter">
+        <span id="we">We</span> only <span id="teach">teach</span> <span id="what">what</span> we are really <span id="really">really</span> <span id="good">good</span> at.
+    </div>
+
+    <div id="paragraph">
+        <p id="para">
+            Get ready to <span id="acc">accelerate your career</span> with customized courses and leave your mark in the tech industry
+        </p>
+    </div>
+
+    <button id="check"><a class="anchor" id="anchor_id" href="{% url 'webpage:checkcourses' %}">Check Courses-Make an Impact</a></button><br>
+
+    <div class="divs" id="students"><span id="id1">25k+</span> <br><span id="st">Students  taught</span></div>
+    <div class="divs" id="instructors"><span id="id2">20+</span><br> <span id="in">Instructors</span></div>
+    <div class="divs" id="yt"><span id="id3">431K+</span> <br><span id="youtube">Youtube Subs.</span></div>
+
+    <div id="matter2">
+        we do whatever it takes to help you <span id="under">understand the concepts.</span>
+    </div>
+
+    <div>
+        <iframe id="pic" src="https://www.youtube.com/embed/60SRAWmMXyc" title="You Are Not Yet Ready | Placements | Open Source" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <button id="explore"><a class="anchor" id="anchor_id" href="{% url 'webpage:checkcourses' %}">Explore free learning</a></button><br><br><br>
+
+    <h1 id="offered">Courses Offered.</h1>
+
+    <button id="fend" class="courses">
+        <p class="sub_tag">INDEPTH</p>
+        <p class="headings" id="fend_text"><span id="fendspan">Front-End Domination:</span> <br> Create Anything with Code</p>
+        <img class="imagess" src="../static/img/fend.webp" alt="">
+    </button>
+    <button id="bend" class="courses">
+        <p class="sub_tag">INDEPTH</p>
+        <p class="headings" id="bend_text"><span id="bendspan">Back-End Domination:</span> <br> <span id="sp1">Create Efficient Back-End.</span></p>
+        <img class="imagess" src="../static/img/bend.webp" alt="">
+    </button>
+    <button id="apti" class="courses">
+        <p class="sub_tag" id="placements_id">PLACEMENTS</p>
+        <p class="headings" id="apti_text"><span id="aptispan">Aptitude & Reasoning for</span> <br> <span id="sp2">Campus Placements</span></p>
+        <img class="imagess" src="../static/img/apti.webp" alt="">
+    </button>
+    <button id="java" class="courses">
+        <p class="sub_tag" id="indepth_id">INDEPTH</p>
+        <p class="headings" id="java_text">Java & DSA Domination</p>
+        <img class="imagess" src="../static/img/java.webp" alt="">
+    </button>
+    <button id="threejs" class="courses">
+        <p class="sub_tag">ANIMATION</p>
+        <p class="headings" id="threejs_text">Three.js Domination</p>
+        <img class="imagess" src="../static/img/threejs.webp" alt="">
+    </button>
+
+    <p id="top">
+        Top <span id="companiesspan">companies</span> our students <br> working with
+    </p>
+    <img src="../static/img/amazon.webp" alt="" id="companies_img">
+
+    <button id="explore2"><a class="anchor" id="anchor_id" href="{% url 'webpage:checkcourses' %}">Explore Courses</a></button>
+
+    <div id="lastinfo">
+        <div id="connect">
+            <img id="sherlogo" src="../static/img/logo.webp" alt="">
+            <p id="socials">Let's connect with our socials</p>
+            <img id="instalogo" src="../static/img/instalogo.png" alt="">
+            <img id="linkedinlogo" src="../static/img/linkedinlogo.png" alt="">
+            <img id="githublogo" src="../static/img/icons8-discord-50.png" alt="">
+            <img id="ytlogo" src="../static/img/y.png" alt="">
+            <img id="xlogo" src="../static/img/Screenshot 2024-12-19 193244.png" alt="">
+        </div>
+        <div id="info">
+            <h5 id="companyid" class="info_buttons">COMPANY</h5>
+            <p class="info_buttons">About Us</p>
+            <p class="info_buttons">Support</p>
+            <p class="info_buttons">Privacy Policy</p>
+            <p class="info_buttons">Terms and Condition</p>
+            <p class="info_buttons">Pricing and Refund</p>
+            <p class="info_buttons">Hire From Us</p>
+            <p class="info_buttons">Bug Bounty</p>
+        </div>
+        <div id="community">
+            <h5 id="communityid">COMMUNITY</h5>
+            <p class="inanddi">Inertia</p>
+            <p class="inanddi">Discord</p>
+        </div>
+        <div id="touch">
+            <h5 id="touchid">Get In Touch</h5>
+            <p class="phn">+91 8109161752</p>
+            <p class="phn">+91 9691778470</p>
+            <p class="phn">hello@sheryians.com</p>
+            <p class="phn">23-B,Indrapuri Sector C, <br>Bhopal(MP),462021</p>
+        </div>
+    </div>
+
+    <footer id="footer">Copyright <span id="#cpy">&copy;</span> 2024 Sheryians Pvt. Ltd. <br><span id="all">All Rights Reserved.</span> </footer>
+
+</body>
+</html>
