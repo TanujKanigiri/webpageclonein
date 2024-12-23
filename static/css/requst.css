@@ -98,3 +98,172 @@ body{
 #sign_button{
     color: black;
 }
+
+#lastinfo{
+    width: 96%;
+    height: 448px;
+    border-top: 0.5px white solid;
+    border-bottom: 0.5px white solid;
+    position: relative;
+    left: 35px;
+    margin-top: 485px;
+}
+
+#footer{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.8px;
+    margin-top: 19.7px;
+    margin-left: 42.7%;
+    margin-bottom: 24px;
+    line-height: 18px;
+}
+#all{
+    position: relative;
+    left: 6.2%;
+}
+
+
+#sherlogo,#instalogo,#linkedinlogo,#githublogo,#ytlogo,#xlogo{
+    width: 25px;
+    display: inline;
+}
+
+#sherlogo{
+    width: 42.4px;
+    position: relative;
+    left: 13%;
+    top: 110px;
+}
+#socials{
+    position: relative;
+    top: 125px;
+    left: 13%;
+    word-spacing: -2px;
+    font-size: 13.9px;
+    color: white;
+    font-family: helvetica;
+}
+#connect{
+    width: 270px;
+    height: 420px;
+    color: white;
+}
+#instalogo{
+    width: 26px;
+    position: relative;
+    left: 13%;
+    top: 140px;
+}
+#linkedinlogo{
+    width: 19px;
+    position: relative;
+    left: 22%;
+    top: 137px;
+}
+#githublogo{
+    width: 24px;
+    position: relative;
+    left: 31.6%;
+    top: 140px;
+}
+#ytlogo{
+    width: 22px;
+    position: relative;
+    left: 41%;
+    top: 139px;
+}
+#xlogo{
+    width: 25px;
+    position: relative;
+    left: 49%;
+    top: 138px;
+}
+
+
+.info_buttons{
+    position: relative;
+    margin-bottom: 15.5px;
+    font-family: helvetica;
+}
+#info{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -321.5px;
+    left: 37.1%;
+    font-size: 13.8px;
+    font-family: helvetica;
+}
+#companyid{
+    font-size: 15.6px;
+    margin-bottom: 23px;
+}
+
+#community{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -483px;
+    left: 63.45%;
+    margin-bottom: 20px;
+    font-family: helvetica;
+}
+#communityid{
+    position: relative;
+    font-size: 15.6px;
+    font-family: helvetica;
+}
+.inanddi{
+    position: relative;
+    bottom: -24px;
+    font-size: 13.8px;
+    margin-bottom: 14px;
+}
+
+#touch{
+    width: 200px;
+    height: 160px;
+    color: white;
+    position: relative;
+    top: -661.5px;
+    left: 87.45%;
+}
+#touchid{
+    position: relative;
+    font-size: 15.6px;
+    font-family: helvetica;
+    margin-bottom: 23px;
+}
+.phn{
+    font-family: helvetica;
+    font-size: 14px;
+    margin-bottom: 15px;
+    word-spacing: -5px;
+}
+
+#connect:hover,#communityid:hover,#touchid:hover{
+    color: #24cfa6;
+    cursor: pointer;
+}
+
+.info_buttons:hover,.inanddi:hover,.phn:hover{
+    color: #24cfa6;
+    cursor: pointer;
+}
+
+#log{
+    width: 600px;
+    height: 100px;
+    color: #24cfa6;
+    font-size: 50px;
+    font-family: NeueMachinaRegular;
+    text-align: center;
+    position: relative;
+    left: 32%;
+    top: 200px;
+}
