@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "cloneinpage/wsgi.py",
+      "src": "page/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
@@ -18,7 +18,7 @@
     }
   ],
   "rewrites": [
-    {"source": "/(.*)","destination":"/"}
+    {"src": "/(.*)","dest":"/"}
   ],
   "outputDirectory": "static"
 }
